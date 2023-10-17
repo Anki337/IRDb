@@ -45,11 +45,12 @@ namespace IRDb.Controllers
         {
             _repo.UpdateMovie(id, movie);
         }
-        [HttpDelete]
+        [HttpDelete("{id}")]
         public void Delete(int id)
         {
             _repo.DeleteMovie(id);
         }
+
 
 
 

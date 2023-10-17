@@ -1,0 +1,22 @@
+#grandparent {
+  display: grid;
+  grid-template-columns: repeat(1, 2fr);
+}
+#grandparent > div {
+  margin: 2px;
+  padding: 5px;
+}
+body {
+  background-color: #2b303a;
+}
+.navbar.bg-body-tertiary {
+  background-color: black;
+  display: grid;
+  justify-content: space-evenly;
+}
+body > div > div > div {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px;
+  margin: 5px;
+}
